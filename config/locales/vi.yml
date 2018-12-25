@@ -1,0 +1,7 @@
+vi:
+  static_pages:
+    home:
+      hometitle: "Trang chủ"
+      sample_app: "Ứng dụng mẫu"
+      home_pages: "Đây là trang chủ của"
+      sample_application: "Ứng dụng mẫu."

@@ -30,4 +30,9 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  static_pages:
+    home:
+      hometitle: "Home"
+      sample_app: "Sample App"
+      home_pages: "This is the home page for the "
+      sample_application: "sample application."
