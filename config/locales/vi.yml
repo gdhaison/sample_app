@@ -6,3 +6,6 @@ vi:
       home_pages: "Đây là trang chủ của"
       sample_application: "Ứng dụng mẫu."
 ror_sampleapp: "Hướng dẫn ứng dụng mẫu Ruby on Rails"
+home: "Trang chủ"
+help: "Hỗ trợ"
+log_in: "Đăng nhập"
