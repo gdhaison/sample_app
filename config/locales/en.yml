@@ -37,3 +37,6 @@ en:
       home_pages: "This is the home page for the "
       sample_application: "sample application."
 ror_sampleapp: "Ruby on Rails Tutorial Sample App"
+home: "Home"
+help: "Help"
+log_in: "Log In"
