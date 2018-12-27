@@ -5,7 +5,26 @@ vi:
       sample_app: "Ứng dụng mẫu"
       home_pages: "Đây là trang chủ của"
       sample_application: "Ứng dụng mẫu."
-ror_sampleapp: "Hướng dẫn ứng dụng mẫu Ruby on Rails"
-home: "Trang chủ"
-help: "Hỗ trợ"
-log_in: "Đăng nhập"
+    help:
+      help: "Hỗ trợ"
+      get_help: "Nhận sự hỗ trợ Ruby on Rails tại "
+      help_section: "hỗ trợ Rails Tutorial "
+      to_get_help: "Nếu muốn nhận sự hỗ trợ từ ứng dụng mẫu này, xem tại "
+      rort_book: "cuốn sách hướng dẫn Ruby on Rails" 
+    about:
+      about: "Về chúng tôi"
+      the: ""
+      is: "là một"
+      book: "cuốn sách"
+      and: "và"
+      screencast_series: "tuyển tập screencast"
+      teach: "để dạy phát triển web với "
+      intro: "Đây là ứng dụng mẫu cho hướng dẫn."    
+  layouts:
+    header:
+      sample_app: "Sample app"
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      log_in: "Đăng nhập"
+  ror_sampleapp: "Hướng dẫn ứng dụng mẫu Ruby on Rails"
+
