@@ -1,9 +1,11 @@
-<% provide :title, t(".home") %>
-<h1><%= t ".sample_app" %></h1>
-<p>
+<div class="container">
+  <% provide :title, t(".hometitle") %>
+  <h1 class="text-center"><%= t ".sample_app" %></h1>
+    <p>
   <%= t ".home_pages" %>
-  <Button><%= link_to t("tuto"), "http://www.railstutorial.org/" %></Button>
+  <button><%= link_to t("tuto"), "http://www.railstutorial.org/" %></button>
   <%= t ".sample_application" %>
-</p>
-<Button><%= link_to "english", locale:"en" %></Button>
-<Button><%= link_to "vietnamese", locale:"vi" %></Button>
+  </p>
+  <button><%= link_to "english", locale: "en" %></button>
+  <button><%= link_to "vietnamese", locale: "vi" %></button>
+</div>
