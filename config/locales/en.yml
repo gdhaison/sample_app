@@ -36,6 +36,7 @@ en:
       sample_app: "Sample App"
       home_pages: "This is the home page for the "
       sample_application: "sample application."
+      sign_up_now: "Sign up"
     help:
       help: "Help"
       get_help: "Get help on the Ruby on Rails Tutorial at the "
@@ -57,4 +58,23 @@ en:
       home: "Home"
       help: "Help"
       log_in: "Log in" 
+    footer:
+      the: "The"
+      tuto: "Tutorial"
+      by: "by"
+      about: "About us"
+      contact: "Contact us"
+      news : "News"
+  users:
+    new:
+      name: "Name"
+      pass: "Password"
+      confirm_pass: "Confirmation"
+      create_acc: "Create my account"
+  shared:
+    erro_messages:
+      error_messages: "Error Messages"
+      form_contains: "The form contains"
+      err: "errors"
   ror_sampleapp: "Ruby on Rails Tutorial Sample App"
+  sign_up: "Sign up"

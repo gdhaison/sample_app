@@ -5,6 +5,7 @@ vi:
       sample_app: "Ứng dụng mẫu"
       home_pages: "Đây là trang chủ của"
       sample_application: "Ứng dụng mẫu."
+      sign_up_now: "Đăng ký"
     help:
       help: "Hỗ trợ"
       get_help: "Nhận sự hỗ trợ Ruby on Rails tại "
@@ -26,5 +27,23 @@ vi:
       home: "Trang chủ"
       help: "Trợ giúp"
       log_in: "Đăng nhập"
+    footer:
+      the: ""
+      tuto: "Khóa học"
+      by: "từ"
+      about: "Về chúng tôi"
+      contact: "Liên hệ"
+      news : "Bản tin"
+  users:
+    new:
+      name: "Tên"
+      pass: "Mật khẩu"
+      confirm_pass: "Xác nhận mật khẩu"
+      create_acc: "Tạo tài khoản của tôi"
+  shared:
+    erro_messages:  
+      error_messages: "Lỗi"
+      form_contains: "Nội dung đăng kí có"
+      err: "lỗi"
   ror_sampleapp: "Hướng dẫn ứng dụng mẫu Ruby on Rails"
-
+  sign_up: "Đăng ký"
