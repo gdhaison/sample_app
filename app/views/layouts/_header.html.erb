@@ -1,11 +1,17 @@
 <header class="navbar navbar navbar-inverse">
   <div class="container">
-    <%= link_to t(".sample_app") , "#", id: "logo" %>
+    <%= link_to t(".sample_app") , root_path, id: "logo" %>
     <nav>
       <ul class="nav navbar-nav navbar-right">
-        <li><%= link_to t(".home"), "#" %></li>
-        <li><%= link_to t(".help"), "#" %></li>
-        <li><%= link_to t(".log_in"), "#" %></li>
+        <li><%= link_to t(".home"), root_path %></li>
+        <li><%= link_to t(".help"), help_path %></li>
+        <% if logged_in? %>
+          <li><%= link_to t(".profile"), current_user %></li>
+          <li><%= link_to t(".setting"), "#" %></li>
+          <li><%= link_to t(".log_out"), logout_path, method: :delete %></li>
+        <% else %>
+          <li><%= link_to t("log_in"), login_path %></li>
+        <% end %>
       </ul>
     </nav>
   </div>
