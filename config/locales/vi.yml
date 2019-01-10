@@ -1,6 +1,7 @@
 vi:
   static_pages:
     home:
+      tuto: "Khóa học"
       hometitle: "Trang chủ"
       sample_app: "Ứng dụng mẫu"
       home_pages: "Đây là trang chủ của"
@@ -23,6 +24,11 @@ vi:
       intro: "Đây là ứng dụng mẫu cho hướng dẫn."    
   layouts:
     header:
+      users: "Người dùng"
+      profile: "Thông tin"
+      setting: "Cài đặt"
+      log_out: "Đăng xuất"
+      account: "Tài khoản"
       sample_app: "Sample app"
       home: "Trang chủ"
       help: "Trợ giúp"
@@ -45,5 +51,10 @@ vi:
       error_messages: "Lỗi"
       form_contains: "Nội dung đăng kí có"
       err: "lỗi"
+  sessions:
+    new:
+      pass: "Mật khẩu"
+      new_user: "Tạo tài khoản ?"
   ror_sampleapp: "Hướng dẫn ứng dụng mẫu Ruby on Rails"
   sign_up: "Đăng ký"
+  log_in: "Đăng nhập"

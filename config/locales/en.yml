@@ -32,6 +32,7 @@
 en:
   static_pages:
     home:
+      tuto: "Tutorial"
       hometitle: "Home"
       sample_app: "Sample App"
       home_pages: "This is the home page for the "
@@ -54,6 +55,11 @@ en:
       intro: "This is the sample application for the tutorial."
   layouts:
     header:
+      users: "Users"
+      profile: "Profile"
+      setting: "Settings"
+      log_out: "Log out"
+      account: "Account"
       sample_app: "Sample app"
       home: "Home"
       help: "Help"
@@ -76,5 +82,10 @@ en:
       error_messages: "Error Messages"
       form_contains: "The form contains"
       err: "errors"
+  sessions:
+    new:
+      pass: "Password"
+      new_user: "New user?"
   ror_sampleapp: "Ruby on Rails Tutorial Sample App"
   sign_up: "Sign up"
+  log_in: "Log In"
