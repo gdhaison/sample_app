@@ -58,3 +58,4 @@ vi:
   ror_sampleapp: "Hướng dẫn ứng dụng mẫu Ruby on Rails"
   sign_up: "Đăng ký"
   log_in: "Đăng nhập"
+  remember: "Nhớ đăng nhập"

@@ -8,9 +8,6 @@
   box-sizing: border-box;
 }
 
-body{
-  padding-top: 60px;
-}
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1;
@@ -47,12 +44,12 @@ section {
 }
 
 #logo:hover {
-  color: gray;
+  color: red;
   text-decoration: none;
 }
 
 footer {
-  margin-top: 45px;
+  margin-top: 250px;
   padding-top: 5px;
   border-top: 1px solid $gray-medium-light;
   color: gray;
@@ -88,7 +85,7 @@ input {
 
 aside {
   section.user_info {
-  margin-top: 20px;
+    margin-top: 20px;
   }
   section {
     padding: 10px 0;
@@ -98,14 +95,14 @@ aside {
     padding-top: 0;
   }
   span {
-  display: block;
-  margin-bottom: 3px;
+    display: block;
+    margin-bottom: 3px;
     line-height: 1;
   }
   h1{
     font-size: 1.4em;
     text-align: left;
-    letter-spacing: -1px;
+    letter-spacing: 1px;
     margin-bottom: 3px;
     margin-top: 0;
     }
@@ -134,4 +131,18 @@ aside {
   .form-control {
     color: $state-danger-text;
   }
+}
+
+.checkbox {
+  margin-top: -10px;
+  margin-bottom: 10px;
+  span {
+    margin-left: 20px;
+    font-weight: normal;
+  }
+}
+
+#session_remember_me {
+  width: auto;
+  margin-left: 0;
 }
