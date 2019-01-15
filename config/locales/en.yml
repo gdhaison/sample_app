@@ -72,11 +72,27 @@ en:
       contact: "Contact us"
       news : "News"
   users:
+    form:
+      name: "Name"
+      pass: "Password"
+      confirm_pass: "Confirmation"
     new:
       name: "Name"
       pass: "Password"
       confirm_pass: "Confirmation"
       create_acc: "Create my account"
+    index:
+      all_user: "All user"
+      list_user: "List Users"
+    edit:
+      edit_user: "Edit information"
+      edit_account: "Eddit account"
+      update: "Update your profile"
+    user:
+      yousure: "You sure?"
+      delete: "Delete"
+    create:
+      sample_app: "Sign up success"
   shared:
     erro_messages:
       error_messages: "Error Messages"
@@ -90,3 +106,9 @@ en:
   sign_up: "Sign up"
   log_in: "Log In"
   remember: "Remember"
+  success: "Success"
+  invalid_pass: "In valid pass"
+  deleted: "User deleted"
+  cantdelete: "Can't delete"
+  updated: "Updated"
+  plslogin: "Please login"
