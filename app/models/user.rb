@@ -10,6 +10,8 @@ class User < ApplicationRecord
     length: {minimum: Settings.user_pass_length_min}
   before_save :downcase_email
   has_secure_password
+  validates :password, presence: true,
+    length: {minimum: Settings.user_pass_length_min}, allow_nil: true
 
   class << self
     def digest string
@@ -23,7 +25,7 @@ class User < ApplicationRecord
   end
 
   def remember
-    self.remember_token = User.new_token
+    remember_token = User.new_token
     update remember_digest: User.digest(remember_token)
   end
 
@@ -42,9 +44,14 @@ class User < ApplicationRecord
     update remember_digest: nil
   end
 
+  def current_user? current_user
+    self == current_user
+  end
+
   private
 
   def downcase_email
     email.downcase!
   end
+
 end

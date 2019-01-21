@@ -41,11 +41,27 @@ vi:
       contact: "Liên hệ"
       news : "Bản tin"
   users:
+    form:
+      name: "Tên"
+      pass: "Mật khẩu"
+      confirm_pass: "Xác nhận mật khẩu"
     new:
       name: "Tên"
       pass: "Mật khẩu"
       confirm_pass: "Xác nhận mật khẩu"
       create_acc: "Tạo tài khoản của tôi"
+    index:
+      all_user: "Tất cả người dùng"
+      list_user: "Danh sách Users"
+    user:
+      yousure: "Bạn chắc chứ?"
+      delete: "Xóa"
+    edit:
+      edit_user: "Sửa thông tin user"
+      update: "Sửa thông tin tài khoản"
+      edit_account: "Sửa"
+    create:
+      sample_app: "Đăng ký thành công"
   shared:
     erro_messages:  
       error_messages: "Lỗi"
@@ -59,3 +75,9 @@ vi:
   sign_up: "Đăng ký"
   log_in: "Đăng nhập"
   remember: "Nhớ đăng nhập"
+  success: "Thành công"
+  invalid_pass: "Sai mật khẩu"
+  deleted: "Xóa thành công"
+  cantdelete: "Xóa không thành công"
+  updated: "Sửa thành công"
+  plslogin: "Hãy đăng nhập"
